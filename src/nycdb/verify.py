@@ -48,7 +48,9 @@ TABLES = {
     },
     'oath_hearings': {'oath_hearings': 10_000_000},
     'hpd_vacateorders': {'hpd_vacateorders': 4_000},
-    'j51_exemptions': {'j51_exemptions': 4_000_000}
+    'no_harassment': {'no_harassment': 1000},
+    'LL7_qualified': {'ll7_qualified': 180},
+    'speculation': {'speculation': 90},
 }
 
 
