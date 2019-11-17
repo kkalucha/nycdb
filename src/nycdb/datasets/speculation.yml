@@ -1,0 +1,32 @@
+---
+files:
+  -
+    url: https://data.cityofnewyork.us/api/views/adax-9mit/rows.csv?accessType=DOWNLOAD
+    dest: speculation.csv
+schema:
+  table_name: speculation
+  fields:
+    borough: char(2)
+    boro: integer
+    block: integer
+    lot: integer
+    bbl: bigint
+    HnumLo: integer
+    HnumHi: integer
+    StrName: text
+    crfn: bigint
+    grantee: text
+    DeedDate: date
+    price: integer
+    CapRate: numeric
+    BoroughCapRate: numeric
+    yearqtr: text
+    postcode: integer
+    latitude: numeric
+    longitude: numeric
+    CommunityBoard: integer
+    CouncilDistrict: integer
+    CensusTract: integer
+    bin: integer
+    nta: text
+    location1: text

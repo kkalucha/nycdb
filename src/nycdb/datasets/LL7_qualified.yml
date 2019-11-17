@@ -1,0 +1,33 @@
+---
+files:
+  -
+    url: https://data.cityofnewyork.us/api/views/8wi4-bsy4/rows.csv?accessType=DOWNLOAD
+    dest: LL7_qualified.csv
+schema:
+  table_name: LL7_qualified
+  fields:
+    borough: char(2)
+    boro: integer
+    block: integer
+    lot: integer
+    bbl: bigint
+    HnumLo: integer
+    HnumHi: integer
+    StrName: text
+    crfn: bigint
+    grantee: text
+    DeedDate: date
+    price: integer
+    CapRate: numeric
+    BoroughCapRate: numeric
+    yearqtr: text
+    postcode: integer
+    latitude: numeric
+    longitude: numeric
+    CommunityBoard: integer
+    CouncilDistrict: integer
+    CensusTract: integer
+    bin: integer
+    nta: text
+    location1: text
+  
